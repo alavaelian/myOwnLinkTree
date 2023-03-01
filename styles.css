@@ -24,6 +24,11 @@ header{
   border-radius:30px;
   background-color:rgb(240,240,240);
 }
+.share-button:hover{
+  transition:cubic-bezier(.06,1.41,.82,1.41) 0.4s;
+  transform:scale(1.13);
+}
+
 .container{
     width:91%;
     max-width:680px;
@@ -54,6 +59,7 @@ a{
   transition:cubic-bezier(.06,1.41,.82,1.41) 0.4s;
   transform:scale(1.13);
 }
+
 .tile-share-button{
     margin:8px;
     width:40px;
