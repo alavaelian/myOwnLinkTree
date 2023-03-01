@@ -65,7 +65,11 @@ a{
     width:40px;
     height:40px ;
     border-radius:20px;
+    visibility: hidden;
   }
+.tile:hover .tile-share-button{
+    visibility: visible;
+}
 .tile-share-button svg {
   margin-left:12px;
   margin-top:10px; 
