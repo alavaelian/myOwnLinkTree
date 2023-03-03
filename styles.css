@@ -22,7 +22,7 @@ header{
   margin-top:20px;
 }
 .navigation{
-  right:40px;
+  right:20px;
   position:relative;
   width:120px;
   height:60px;
@@ -67,6 +67,7 @@ header{
   background:#fff;
   border-radius:50%;
   border:10px solid #fff;
+  transition:0.5;
   }
 .navigation .userBx .imBx img {
   positon:absolute;
@@ -75,6 +76,7 @@ header{
   width:100%;
   height:100%;
   object-fit:cover;
+  transition:0.5;
 }
 .navigation .menuToggle{
   position:relative;
