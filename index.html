@@ -40,6 +40,12 @@
           navigation.classList.toggle('active')
         }
       </script>
+      <script>
+        const link=encodeURI(window.location.href);
+        const msg=encodeURIComponent('hey, i found this guy');
+        const title = encodeURIComponent(document.querySelector('title').textContent);
+        console.log([link, msg, title]);
+      </script>
     </header>
     <div class="container">
       <div class="image-container">
