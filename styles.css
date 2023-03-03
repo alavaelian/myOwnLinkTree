@@ -51,7 +51,7 @@ header{
   overflow:hidden; 
   color:#555;
   transition:1s;
-  transition-delay:0.3s; 
+  transition-delay:0.5s;
 }
 .navigation.active .userBx{
   width: calc(100% - 60px);
