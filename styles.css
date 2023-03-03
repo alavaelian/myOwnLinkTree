@@ -50,7 +50,7 @@ header{
   align-items:center;
   overflow:hidden; 
   color:#555;
-  transition:1s;
+  transition:0.5s;
   transition-delay:0.5s;
 }
 .navigation.active .userBx{
