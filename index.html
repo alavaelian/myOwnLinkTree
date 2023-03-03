@@ -23,21 +23,21 @@
         
        </div>
        <ul class="menu">
-         <li><a class"facebook" target="blank" href="#"><ion-icon name="logo-facebook"></ion-icon> Facebook <i class="fab fa-facebook"></i></a></li>
-         <li><a href="#"><ion-icon name="logo-twitter"></ion-icon> Twitter</a></li>
-         <li><a href="#"><ion-icon name="logo-linkedin"></ion-icon> Linkedin</a></li>
-         <li><a href="#"><ion-icon name="logo-reddit"></ion-icon> Reddit</a></li>
-         <li><a href="#"><ion-icon name="logo-whatsapp"></ion-icon> Whatsapp</a></li>
-         <li><a href="#"><ion-icon name="call-outline"></ion-icon>Telegram</a></li>
+         <li><a class="facebook" target="blank" ><ion-icon name="logo-facebook"></ion-icon> Facebook <i class="fab fa-facebook"></i></a></li>
+         <li><a class="twitter"><ion-icon name="logo-twitter"></ion-icon> Twitter</a></li>
+         <li><a class="linkedin"><ion-icon name="logo-linkedin"></ion-icon> Linkedin</a></li>
+         <li><a class="reddit"><ion-icon name="logo-reddit"></ion-icon> Reddit</a></li>
+         <li><a class="whatsapp"><ion-icon name="logo-whatsapp"></ion-icon> Whatsapp</a></li>
+         <li><a class="telegram"><ion-icon name="call-outline"></ion-icon>Telegram</a></li>
        </ul>
       </div>
       <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
       <script>
         let menuToggle = document.querySelector('.menuToggle');
         let navigation = document.querySelector('.navigation');
         menuToggle.onclick = function(){
-          navigation.classList.toggle('active')
+        navigation.classList.toggle('active')
         }
       </script>
       <script>
@@ -48,6 +48,21 @@
 
         const fb = document.querySelector('.facebook');
         fb.href='https://www.facebook.com/share.php?u=${link}';
+        const twitter = document.querySelector('.twitter');
+        twitter.href = `http://twitter.com/share?&url=${link}&text=${msg}&hashtags=javascript,programming`;
+
+        const linkedIn = document.querySelector('.linkedin');
+        linkedIn.href = `https://www.linkedin.com/sharing/share-offsite/?url=${link}`;
+
+        const reddit = document.querySelector('.reddit');
+        reddit.href = `http://www.reddit.com/submit?url=${link}&title=${title}`;
+
+        const whatsapp = document.querySelector('.whatsapp');
+        whatsapp.href = `https://api.whatsapp.com/send?text=${msg}: ${link}`;
+
+        const telegram = document.querySelector('.telegram');
+        telegram.href = `https://telegram.me/share/url?url=${link}&text=${msg}`;
+
       </script>
     </header>
     <div class="container">
