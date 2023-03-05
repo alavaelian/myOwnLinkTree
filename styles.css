@@ -201,7 +201,8 @@ a{
 }
 .icon img {
   width:37px;
-  height:39px;
+  height:35px;
+  margin-top:2px;
 }
 .menu li{
   list-style:none;
