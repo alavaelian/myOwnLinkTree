@@ -174,12 +174,16 @@ a{
     border-radius:20px;
     /* visibility: hidden; */
   }
+.tile-share-button img{
+  margin-left:5px;
+  margin-top:5px;
+}
 /* .tile:hover .tile-share-button{ */
 /*     visibility: visible; */
 /* } */
 .tile-share-button svg {
-  margin-left:12px;
-  margin-top:10px; 
+  margin-left:5px;
+  margin-top:5px; 
 }
 .image-container{
     height:100px;
@@ -194,6 +198,10 @@ a{
     margin:4px 9px;
     width: 44px;
     height: 44px;
+}
+.icon img {
+  width:44px;
+  height:44px;
 }
 .menu li{
   list-style:none;
